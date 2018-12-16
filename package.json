@@ -1,0 +1,13 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sls": "serverless",
+    "deploy": "yarn run sls deploy"
+  },
+  "devDependencies": {
+    "serverless": "^1.35.0"
+  }
+}
